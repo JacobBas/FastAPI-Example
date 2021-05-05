@@ -1,0 +1,1 @@
+# we are going to want to use SQLAlchemy to initialize and communicate with the database
