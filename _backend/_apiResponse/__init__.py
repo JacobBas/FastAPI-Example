@@ -1,12 +1,11 @@
 from fastapi import APIRouter
 
-apiRouter = APIRouter(
+router = APIRouter(
     prefix="/api"
 )
 
-
 ### root api call
-@apiRouter.get("/")
+@router.get("/")
 async def root():
     return {"message": "Hello there!",
             "response" : {
